@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package utfpr.dainf.if62c.pratica;
+package utfpr.ct.dainf.if62c.pratica;
 
 import java.util.HashMap;
 
@@ -13,7 +13,7 @@ import java.util.HashMap;
  */
 public class Time {
     
-    private HashMap jogadores = new HashMap<>();
+    private HashMap<String, Jogador> jogadores = new HashMap<>();
     /*
     public Time() {
         jogadores = new HashMap<>();
@@ -23,7 +23,7 @@ public class Time {
         jogadores.put(posicao, jogador);
     }
     
-    public HashMap getJogadores() {
+    public HashMap<String, Jogador> getJogadores() {
         return jogadores;
     }
     

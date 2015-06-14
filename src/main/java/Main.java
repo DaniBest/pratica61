@@ -1,8 +1,8 @@
 
 import java.util.HashMap;
 import java.util.Set;
-import utfpr.dainf.if62c.pratica.Jogador;
-import utfpr.dainf.if62c.pratica.Time;
+import utfpr.ct.dainf.if62c.pratica.Jogador;
+import utfpr.ct.dainf.if62c.pratica.Time;
 
 /**
  * UTFPR - Universidade Tecnológica Federal do Paraná DAINF - Departamento
