@@ -13,11 +13,11 @@ import java.util.HashMap;
  */
 public class Time {
     
-    private HashMap<String, Jogador> jogadores = new HashMap<>();
-    /*
+    private HashMap<String, Jogador> jogadores;
+    
     public Time() {
-        jogadores = new HashMap<>();
-    }*/
+        jogadores = new HashMap<String, Jogador>();
+    }
     
     public void addJogador(String posicao, Jogador jogador) {
         jogadores.put(posicao, jogador);
